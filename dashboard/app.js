@@ -76,6 +76,6 @@ module.exports.launch = async (client) => {
 
   /* Start */
   app.listen(app.get("port"), () => {
-    client.logger.success("Dashboard is listening on port " + app.get(0.0.0.0:$PORT));
+    client.logger.success("Dashboard is listening on port " + app.get("port));
   });
 };
