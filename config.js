@@ -37,9 +37,9 @@ module.exports = {
 
   DASHBOARD: {
     enabled: true, // enable or disable dashboard
-    baseURL: "http://localhost:8080", // base url
-    failureURL: "http://localhost:8080", // failure redirect url
-    port: "8080", // port to run the bot on
+    baseURL: "https://web-production-4023f.up.railway.app/", // base url
+    failureURL: "https://web-production-4023f.up.railway.app/", // failure redirect url
+    port: process.env.PORT, // port to run the bot on
   },
 
   ECONOMY: {
