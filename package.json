@@ -40,6 +40,7 @@
     "express-session": "^1.17.3",
     "fixedsize-map": "^1.0.1",
     "iso-639-1": "^2.1.15",
+    "jacoby-anime": "^3.0.0",
     "lavaclient": "^4.1.1",
     "module-alias": "^2.2.2",
     "moment": "^2.29.4",

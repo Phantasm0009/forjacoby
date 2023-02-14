@@ -1,7 +1,7 @@
 const { EmbedBuilder, ApplicationCommandOptionType } = require("discord.js");
 const { getJson } = require("@helpers/HttpUtils");
 const { EMBED_COLORS } = require("@root/config");
-const NekosLife = require("nekos.life");
+const NekosLife = require("jacoby-anime");
 const neko = new NekosLife();
 
 const choices = ["hug", "kiss", "cuddle", "feed", "pat", "poke", "slap", "smug", "tickle", "wink"];
