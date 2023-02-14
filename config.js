@@ -37,8 +37,8 @@ module.exports = {
 
   DASHBOARD: {
     enabled: true, // enable or disable dashboard
-    baseURL: "https://jacoby-bot.xyz", // base url
-    failureURL: "https://jacoby-bot.xyz", // failure redirect url
+    baseURL: "https://jacoby.up.railway.app", // base url
+    failureURL: "https://jacoby.up.railway.app", // failure redirect url
     port: process.env.PORT || 8080, // port to run the bot on
   },
 
